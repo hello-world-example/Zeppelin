@@ -1,12 +1,12 @@
-# Template-Hugo 
+# Zeppelin 
 
 
 ```
-cp ../Template-Hugo/README.md .
-cp -r ../Template-Hugo/HuGo/themes/book ./HuGo/themes
-cp -r ../Template-Hugo/HuGo/config.* ./HuGo
-cp -r ../Template-Hugo/HuGo/assets ./HuGo
-sed -i '' 's/Template-Hugo/_NewProject_/g' `grep Template-Hugo --include=\*.{md,html,xml,yaml,toml} -rl .`
+cp ../Zeppelin/README.md .
+cp -r ../Zeppelin/HuGo/themes/book ./HuGo/themes
+cp -r ../Zeppelin/HuGo/config.* ./HuGo
+cp -r ../Zeppelin/HuGo/assets ./HuGo
+sed -i '' 's/Zeppelin/_NewProject_/g' `grep Zeppelin --include=\*.{md,html,xml,yaml,toml} -rl .`
 
 git config user.email ykb553@163.com
 git config -l | grep user
